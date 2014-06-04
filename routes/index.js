@@ -24,10 +24,20 @@ router.get('/', function(req, res) {
       );
     });
   }
+  else if (req.query.page){
+    console.log('Here is the page the user is requesting: ' + req.query.page);
+    feedreader.getArticlesWithPageNum(req.query.page, function(posts) {    
+      res.render(
+        'index', {data: posts, uri: 'http://www.planetnodejs.com', page: req.query.page}
+      );
+        
+    });
+
+  }
   else {
     feedreader.run(function(posts) {    
       res.render(
-        'index', {data: posts, uri: 'http://www.planetnodejs.com'}
+        'index', {data: posts, uri: 'http://www.planetnodejs.com', page: 1}
       );
         
     });

@@ -23,6 +23,7 @@ hr{
 .navbar {
     font-family: 'Open sans';
     background: #47483d !important;
+    transition: all .2s ease-in-out;
 }
 .navbar-header {
     background-color: #47483d;
@@ -108,6 +109,15 @@ hr{
 .navbar form .btn {
     margin-right: 12px !important;
 }
+
+
+nav.slideUp{
+    top: -70px !important;
+}
+
+nav.slideDown{
+    top: 0px !important;
+}
 /*-----------------------------------------------------------------------------------*/
 /*  FOOTER
 /*-----------------------------------------------------------------------------------*/
@@ -133,6 +143,10 @@ hr{
 .sub-footer .footer-container .pull-left{
     text-align: center !important;
     float: none !important;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #555555 !important;
 }
 
 /*-----------------------------------------------------------------------------------*/
