@@ -16,6 +16,7 @@ hr{
 #articles{
     background-color: white;
     margin-top: 100px;
+    margin-bottom: 30px;
 }
 /*-----------------------------------------------------------------------------------*/
 /*  NAV
@@ -144,10 +145,28 @@ nav.slideDown{
     text-align: center !important;
     float: none !important;
 }
-
+.pagination{
+    margin-top: 0 !important; // Usually has margin-top, but we assign margin-bottom to the div above it, so no need
+}
 .pagination>li>a, .pagination>li>span {
     color: #555555 !important;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*  Sticky Footer by Ryan Fait
+/*  http://ryanfait.com/
+/*-----------------------------------------------------------------------------------*/
+
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -160px !important; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .footer-offset {
+    height: 160px !important; /* .push must be the same height as .footer */
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Quick Look
