@@ -16,7 +16,7 @@ hr{
 #articles{
     background-color: white;
     margin-top: 100px;
-    margin-bottom: 30px;
+    
 }
 /*-----------------------------------------------------------------------------------*/
 /*  NAV
@@ -156,16 +156,21 @@ nav.slideDown{
 /*  Sticky Footer by Ryan Fait
 /*  http://ryanfait.com/
 /*-----------------------------------------------------------------------------------*/
-
+html, body {
+    height: 100%;
+}
 .container {
-    min-height: 100%;
+    min-height: 100% !important;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -160px !important; /* the bottom margin is the negative value of the footer's height */
 }
-.footer, .footer-offset {
-    height: 160px !important; /* .push must be the same height as .footer */
+.footer-offset {
+    height: 158px;
 }
+.footer {position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;} 
 
 
 /*-----------------------------------------------------------------------------------*/
