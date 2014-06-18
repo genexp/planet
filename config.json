@@ -5,16 +5,6 @@
       "author": "Mikeal Rogers",
       "link": "http://www.mikealrogers.com"
     },
-    "isaacs": {
-      "feed": "http://blog.izs.me/rss",
-      "author": "Isaac Schlueter",
-      "link": "http://blog.izs.me"
-    },
-    "azer": {
-      "feed": "http://io.kodfabrik.com/atom.xml",
-      "author": "Azer Koculu",
-      "link": "http://io.kodfabrik.com"
-    },
     "nodejitsu": {
       "feed": "http://blog.nodejitsu.com/feed.xml",
       "author": "Ninjas",
@@ -30,11 +20,6 @@
       "author": "Joyent",
       "link": "http://blog.nodejs.org/"
     },
-    "polotek": {
-      "feed": "http://marcorogers.com/blog/rss",
-      "author": "Marco Rogers",
-      "link": "http://marcorogers.com/blog"
-    },
     "Ted Leung": {
       "feed": "http://www.sauria.com/blog/feed/",
       "author": "Ted Leung",
@@ -44,16 +29,6 @@
       "feed": "http://weblog.bocoup.com/feed",
       "author": "Bocoup",
       "link": "http://weblog.bocoup.com"
-    },
-    "Too Tall Nate": {
-      "feed": "https://tootallnate.net/feed.xml",
-      "author": "Nathan Rajlich",
-      "link": "https://tootallnate.net"
-    },
-    "Digital Tumbleweed": {
-      "feed": "http://digitaltumbleweed.com/rss.xml",
-      "author": "Nick Campbell",
-      "link": "http://digitaltumbleweed.com"
     },
     "Metaduck": {
       "feed": "http://metaduck.com/tagged/node.js/rss",
@@ -70,11 +45,6 @@
       "author": "Assaf Arkin",
       "link": "http://labnotes.org/"
     },
-    "IT Wars": {
-      "feed": "http://www.it-wars.com/feed.php?atom",
-      "author": "Vincent Rabah",
-      "link": "http://www.it-wars.com/"
-    },
     "CurlyBraceCast": {
       "feed": "http://www.curlybracecast.com/itunes.rss",
       "author": "Mikeal Rogers",
@@ -89,11 +59,6 @@
       "feed": "http://feeds.shapeshed.com/shapeshed",
       "author": "George Ornbo",
       "link": "http://shapeshed.com/"
-    },
-    "Nico": {
-      "feed": "http://siriux.net/tag/node/feed/",
-      "author": "Nico Kaiser",
-      "link": "http://siriux.net/"
     },
     "catonmat": {
       "feed": "http://www.catonmat.net/feed/",
@@ -114,11 +79,6 @@
       "feed": "http://blog.wraithan.net/feeds/posts/default/-/nodejs",
       "author": "Wraithan",
       "link": "http://blog.wraithan.net/"
-    },
-    "hypermégatop parfois": {
-      "feed": " http://hypermegatop.github.com/feed.xml",
-      "author": "Martin Angers",
-      "link": "http://hypermegatop.github.com/"
     },
     "NodeJS News": {
       "feed": "http://www.nodejs-news.com/feed/",
@@ -149,6 +109,11 @@
       "feed": "http://strongloop.com/feed/",
       "author": "Strong Loop",
       "link": "strongloop.com"
+    },
+    "Joyent Blog": {
+      "feed": "http://www.joyent.com/blog/feed",
+      "author": "Joyent",
+      "link": "http://www.joyent.com/blog"
     }
   }
 }
