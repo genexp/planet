@@ -21,12 +21,12 @@
           <% for(var i=0; i<data.hits.hits.length; i++) { %>
             <div class="post">              
               <div class ="quick-look">
-                <h2 class="post-title" href="?id=<%=data.hits.hits[i]._id%>"><a href="?id=<%=data.hits.hits[i]._id%>"><%= data.hits.hits[i]._source.title %></a></h2>
+                <h2 class="post-title"><a href="?id=<%=data.hits.hits[i]._id%>"><%= data.hits.hits[i]._source.title %></a></h2>
                 <div class="meta">
                   <div class="post-id" style="display:none"><%=data.hits.hits[i]._source._id%></div>
-                  <span class="date">Posted on <h5 class="displayDate"><%=data.hits.hits[i]._source.displayDate%></h5></span>
+                  <span class="date">Posted on <span class="displayDate"><%=data.hits.hits[i]._source.displayDate%></span></span>
                   <% if(data.hits.hits[i]._source.author) { %>                   
-                    <span class="author">| Author: <h5><%=data.hits.hits[i]._source.author%></h5></span>
+                    <span class="author">| Author: <a href="?searchString=<%=data.hits.hits[i]._source.author%>"><%=data.hits.hits[i]._source.author%></a href="?searchString="></span>
                   <% } %>                  
                   <span class="">| Source: <a href="<%= data.hits.hits[i]._source.link %>">link</a>
                   </span>                  
