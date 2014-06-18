@@ -26,7 +26,10 @@
                   <div class="post-id" style="display:none"><%=data.hits.hits[i]._source._id%></div>
                   <span class="date">Posted on <span class="displayDate"><%=data.hits.hits[i]._source.displayDate%></span></span>
                   <% if(data.hits.hits[i]._source.author) { %>                   
-                    <span class="author">| Author: <a href="?searchString=<%=data.hits.hits[i]._source.author%>"><%=data.hits.hits[i]._source.author%></a href="?searchString="></span>
+                    <span class="author">
+                      | Author: 
+                      <a href="?searchString=<%=data.hits.hits[i]._source.author%>"><%=data.hits.hits[i]._source.author%></a>
+                    </span>
                   <% } %>                  
                   <span class="">| Source: <a href="<%= data.hits.hits[i]._source.link %>">link</a>
                   </span>                  
