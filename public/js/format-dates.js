@@ -1,4 +1,4 @@
-var unFormatedDates = $('.meta span h5.displayDate');
+var unFormatedDates = $('.meta span span.displayDate');
 
 console.log(unFormatedDates);
 
