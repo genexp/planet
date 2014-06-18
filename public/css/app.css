@@ -100,7 +100,7 @@ hr{
     display: inline-block;
 }
 .form-group{
-    width: 65%;
+    width: 75%;
     display: inline-block;
 }
 .navbar-default .navbar-collapse {
@@ -203,7 +203,9 @@ html, body {
 /*-----------------------------------------------------------------------------------*/
 
 @media( min-width: 769px){
-
+    .form-group{
+        width: auto !important;
+    }
 }
 @media( max-width: 480px){
     h2.post-title{
