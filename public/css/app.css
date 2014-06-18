@@ -145,11 +145,19 @@ nav.slideDown{
     text-align: center !important;
     float: none !important;
 }
+.sub-footer p{
+    margin-bottom: 5px  !important;
+}
 .pagination{
     margin-top: 0 !important; // Usually has margin-top, but we assign margin-bottom to the div above it, so no need
 }
 .pagination>li>a, .pagination>li>span {
     color: #555555 !important;
+}
+
+.footer-madglory-logo{
+    width: 130px !important;
+
 }
 
 /*-----------------------------------------------------------------------------------*/
