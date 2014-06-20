@@ -62,6 +62,10 @@ hr{
     background-position: right 0px top 4px;
     font-weight: 300;
 }
+
+.logo span {
+    color: #6ca02e;
+}
 .planet-logo-text{
     float: right;
 }
@@ -72,8 +76,8 @@ hr{
 .navbar-default .navbar-nav>li>a{
     background: #47483d;
 }
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus{
     background: #47483d;
     opacity: .85;
