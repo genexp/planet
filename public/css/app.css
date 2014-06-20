@@ -16,6 +16,7 @@ hr{
 #articles{
     background-color: white;
     margin-top: 100px;
+    margin-bottom: 30px;
 }
 /*-----------------------------------------------------------------------------------*/
 /*  NAV
@@ -103,7 +104,7 @@ hr{
     display: inline-block;
 }
 .form-group{
-    width: 65%;
+    width: 75%;
     display: inline-block;
 }
 .navbar-default .navbar-collapse {
@@ -148,10 +149,41 @@ nav.slideDown{
     text-align: center !important;
     float: none !important;
 }
-
+.sub-footer p{
+    margin-bottom: 5px  !important;
+}
+.pagination{
+    margin-top: 0 !important; // Usually has margin-top, but we assign margin-bottom to the div above it, so no need
+}
 .pagination>li>a, .pagination>li>span {
     color: #555555 !important;
 }
+
+.footer-madglory-logo{
+    width: 130px !important;
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Sticky Footer by Ryan Fait
+/*  http://ryanfait.com/
+/*-----------------------------------------------------------------------------------*/
+html, body {
+    height: 100%;
+}
+.container {
+    min-height: 100% !important;
+    height: auto !important;
+    height: 100%;
+}
+.footer-offset {
+    height: 158px;
+}
+.footer {position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;} 
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Quick Look
@@ -183,7 +215,9 @@ nav.slideDown{
 /*-----------------------------------------------------------------------------------*/
 
 @media( min-width: 769px){
-
+    .form-group{
+        width: auto !important;
+    }
 }
 @media( max-width: 480px){
     h2.post-title{

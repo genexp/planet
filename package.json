@@ -23,6 +23,7 @@
     "mongodb": "*",
     "mongoose": "*",
     "mongoosastic": "*",
+    "elasticsearch": "*",
     "colors": "*"
   },
   "devDependencies": {

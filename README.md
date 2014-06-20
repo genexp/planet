@@ -6,7 +6,7 @@ This is the source code for Planet Node
 To run this on your own machine*:
 
 __1. Install Dependencies__
-(assuming you've already installed Node.js)
+(assuming you've already installed Node.js and elasticsearch)
 
     npm install
 
